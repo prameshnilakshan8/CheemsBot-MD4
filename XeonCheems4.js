@@ -3224,7 +3224,7 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'YouTube 🍓',
+displayText: '🍭YouTube🍭',
 url: `${global.websitex}`
 }
 }, {
@@ -3239,12 +3239,12 @@ id: 'ping'
 }
 }, {
 quickReplyButton: {
-displayText: 'Menu 🐰',
+displayText: '༒Menu༒',
 id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: '🙋Owner🙋',
 id: 'owner'
 }
 }]
@@ -3265,7 +3265,7 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'YouTube 🍓',
+displayText: '🍭YouTube🍭',
 url: `${global.websitex}`
 }
 }, {
@@ -3280,12 +3280,12 @@ id: 'ping'
 }
 }, {
 quickReplyButton: {
-displayText: 'Menu 🐰',
+displayText: '༒Menu༒',
 id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: '🙋Owner🙋',
 id: 'owner'
 }
 }]
@@ -3322,12 +3322,12 @@ id: 'ping'
 }
 }, {
 quickReplyButton: {
-displayText: 'Menu 🐰',
+displayText: '༒Menu༒',
 id: 'menu'
 }  
 }, {
 quickReplyButton: {
-displayText: 'Owner 😈',
+displayText: '🙋Owner🙋',
 id: 'owner'
 }
 }]
@@ -8766,8 +8766,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/8737b098fd5702daeb7e0.jpg',
-sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
+mediaUrl: 'https://i.ibb.co/CMCNByx/Picsart-22-07-03-15-45-00-698.jpg',
+sourceUrl: "https://i.ibb.co/CMCNByx/Picsart-22-07-03-15-45-00-698.jpg"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -8779,7 +8779,7 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 	                let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube 🍒',
+                                    displayText: '🍭YouTube🍭',
                                     url: `${websitex}`
                                 }
                             }, {
@@ -8789,17 +8789,17 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu 🍱',
+                                    displayText: '༒All Menu༒',
                                     id: 'allmenu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu 🍢',
+                                    displayText: '☬List Menu☬',
                                     id: 'command'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner 🤣',
+                                    displayText: '🙋Owner🙋',
                                     id: 'owner'
                                 }
                             }]
@@ -8816,11 +8816,11 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         /////////XeonBotInc.send5ButMsg(m.chat, menulist, global.botname, btn)
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
-        	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
+        	{ urlButton: { displayText: `🍭YouTube🍭`, url : `${websitex}` } },
             { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
-            { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+            { quickReplyButton: { displayText: `༒All Menu༒`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `☬List Menu☬`, id: 'command'} },
+            { quickReplyButton: { displayText: `🙋Owner🙋`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
